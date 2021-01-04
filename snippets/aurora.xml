@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aurora" fetch="https://github.com/Aurora-Rom/" revision="australis" />
+
+  <project path="vendor/aurora" name="android_vendor_aurora" remote="aurora" />
+  <project path="manifest" name="manifest" remote="aurora" />
+</manifest>
