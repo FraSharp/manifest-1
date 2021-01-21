@@ -11,6 +11,10 @@ To initialize your local repository using the Aurora trees, use a command like t
 ```
 repo init -u https://github.com/Aurora-Rom/manifest/ -b australis
 ```
+Or init with a shallow clone:
+```
+repo init --depth=1 -u https://github.com/Aurora-Rom/manifest/ -b australis
+```
 Then to sync up:
 ```
 repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j8
